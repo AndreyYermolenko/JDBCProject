@@ -1,0 +1,30 @@
+[ERROR] 2020-02-26 18:46:58.030 [main] Converter - Convert To Employee problem
+java.sql.SQLException: Набор результатов после последней строки
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getInt(GeneratedScrollableResultSet.java:570) ~[ojdbc7.jar:12.1.0.2.0]
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350) ~[ojdbc7.jar:12.1.0.2.0]
+	at ua.example.model.tools.Converter.convertToEmployee(Converter.java:22) [classes/:?]
+	at ua.example.model.services.InfoEmployeeService.doWork(InfoEmployeeService.java:27) [classes/:?]
+	at ua.example.controller.MainController.employeeInfo(MainController.java:73) [classes/:?]
+	at ua.example.controller.MainController.choiceCase(MainController.java:57) [classes/:?]
+	at ua.example.controller.MainController.doWork(MainController.java:46) [classes/:?]
+	at ua.example.Main.main(Main.java:77) [classes/:?]
+[ERROR] 2020-02-26 18:52:55.313 [main] Converter - Convert To Employee problem
+java.sql.SQLException: Набор результатов после последней строки
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getInt(GeneratedScrollableResultSet.java:570) ~[ojdbc7.jar:12.1.0.2.0]
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350) ~[ojdbc7.jar:12.1.0.2.0]
+	at ua.example.model.tools.Converter.convertToEmployee(Converter.java:22) [classes/:?]
+	at ua.example.model.services.InfoEmployeeService.doWork(InfoEmployeeService.java:27) [classes/:?]
+	at ua.example.controller.MainController.employeeInfo(MainController.java:73) [classes/:?]
+	at ua.example.controller.MainController.choiceCase(MainController.java:57) [classes/:?]
+	at ua.example.controller.MainController.doWork(MainController.java:46) [classes/:?]
+	at ua.example.Main.main(Main.java:77) [classes/:?]
+[ERROR] 2020-02-26 18:53:37.328 [main] Converter - Convert To Employee problem
+java.sql.SQLException: Набор результатов после последней строки
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getInt(GeneratedScrollableResultSet.java:570) ~[ojdbc7.jar:12.1.0.2.0]
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350) ~[ojdbc7.jar:12.1.0.2.0]
+	at ua.example.model.tools.Converter.convertToEmployee(Converter.java:22) [classes/:?]
+	at ua.example.model.services.InfoEmployeeService.doWork(InfoEmployeeService.java:27) [classes/:?]
+	at ua.example.controller.MainController.employeeInfo(MainController.java:73) [classes/:?]
+	at ua.example.controller.MainController.choiceCase(MainController.java:57) [classes/:?]
+	at ua.example.controller.MainController.doWork(MainController.java:46) [classes/:?]
+	at ua.example.Main.main(Main.java:77) [classes/:?]
